@@ -1,11 +1,11 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
 import './style.css';
+import { Navbar } from 'react-bootstrap';
 
 function Navigation() {
   return (
       <Navbar className="navbar" bg="dark" variant="dark">
-        <Navbar.Brand>FRANK</Navbar.Brand>
+        <Navbar.Brand>Video Games</Navbar.Brand>
       </Navbar>
   );
 }

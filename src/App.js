@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 import Navigation from './components/Navbar';
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Navigation/>
     </div>
   );
